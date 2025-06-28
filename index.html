@@ -22,6 +22,9 @@
     />
     <meta name="apple-mobile-web-app-title" content="./audiophile" />
     <link rel="manifest" href="./site.webmanifest" />
+
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header -->
@@ -36,6 +39,8 @@
                 alt="Audiophile logo"
                 width="143"
                 height="25 "
+                data-aos="fade-right"
+                data-aos-duration="1000"
             /></a>
 
             <!-- header-links -->
@@ -43,30 +48,44 @@
               <nav>
                 <ul class="header-link">
                   <li>
-                    <a href="#">HOME</a>
+                    <a href="#" data-aos="fade-down" data-aos-duration="500"
+                      >HOME</a
+                    >
                   </li>
 
                   <li>
-                    <a href="#">HEADPHONES</a>
+                    <a href="#" data-aos="fade-down" data-aos-duration="1000"
+                      >HEADPHONES</a
+                    >
                   </li>
 
                   <li>
-                    <a href="#">SPEAKERS</a>
+                    <a href="#" data-aos="fade-down" data-aos-duration="1500"
+                      >SPEAKERS</a
+                    >
                   </li>
 
                   <li>
-                    <a href="#">EARPHONES</a>
+                    <a href="#" data-aos="fade-down" data-aos-duration="2000"
+                      >EARPHONES</a
+                    >
                   </li>
                 </ul>
               </nav>
             </div>
 
-            <a href="#"
+            <a href="#" data-aos="fade-left" data-aos-duration="1000"
               ><img src="./images/shopping.svg" alt="Shopping logo"
             /></a>
           </div>
 
-          <h1 class="header-title">HEADPHONES</h1>
+          <h1
+            class="header-title"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
+            HEADPHONES
+          </h1>
         </div>
       </div>
     </header>
@@ -75,9 +94,14 @@
     <main>
       <div>
         <section class="Section-1 container">
-          <img src="./images/Group 3.png" alt="New products image" />
+          <img
+            src="./images/Group 3.png"
+            alt="New products image"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          />
 
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1500">
             <h4 class="section-1-new-product">NEW PRODUCT</h4>
 
             <h2 class="section-1-title">
@@ -96,7 +120,7 @@
         </section>
 
         <section class="section-2 container">
-          <div>
+          <div data-aos="fade-right" data-aos-duration="1500">
             <h2 class="section-2-title">
               XX99 MARK I <br />
               HEADPHONES
@@ -112,13 +136,23 @@
             <a href="#" class="orange-button">See Product</a>
           </div>
 
-          <img src="./images/Group 3.svg" alt="XX99 Mark I Headphones" />
+          <img
+            src="./images/Group 3.svg"
+            alt="XX99 Mark I Headphones"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          />/>
         </section>
 
         <section class="section-3 container">
-          <img src="./images/Group 3.jpg" alt="XX59 Headphones" />
+          <img
+            src="./images/Group 3.jpg"
+            alt="XX59 Headphones"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          />
 
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1500">
             <h2 class="section-3-title">
               XX59 <br />
               HEADPHONES
@@ -136,7 +170,7 @@
 
         <section class="section-4 container">
           <div class="section-4-container">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="1500">
               <h2 class="section-4-title">
                 BRINGING YOU THE <br />
                 <span class="small-title">BEST</span> AUDIO GEAR
@@ -153,7 +187,12 @@
               </p>
             </div>
 
-            <img src="./images/Bitmap.png" alt="bitmap" />
+            <img
+              src="./images/Bitmap.png"
+              alt="bitmap"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            />
           </div>
         </section>
       </div>
@@ -170,10 +209,16 @@
               alt="Audiophile logo"
               width="143"
               height="25 "
+              data-aos="fade-right"
+              data-aos-duration="1500"
           /></a>
 
           <!-- footer-links -->
-          <div class="footer-top-links">
+          <div
+            class="footer-top-links"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
             <nav>
               <ul class="header-link">
                 <li>
@@ -198,14 +243,18 @@
 
         <!-- footer-bottom -->
         <div class="footer-bottom">
-          <p class="footer-text">
+          <p class="footer-text" data-aos="fade-right" data-aos-duration="1500">
             Audiophile is an all in one stop to fulfill your audio needs. We're
             a small team of music lovers and sound specialists who are devoted
             to helping you get the most out of personal audio. Come and visit
             our demo facility - we’re open 7 days a week.
           </p>
 
-          <div class="footer-socials">
+          <div
+            class="footer-socials"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
             <!-- footer-socials -->
             <a href="#">
               <img src="./images/Path.png" alt="Facebook logo" />
@@ -220,8 +269,14 @@
             </a>
           </div>
         </div>
-        <p class="footer-text-2">Copyright 2021. All Rights Reserved</p>
+        <p class="footer-text-2" data-aos="fade-right" data-aos-duration="1500">
+          Copyright 2021. All Rights Reserved
+        </p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
