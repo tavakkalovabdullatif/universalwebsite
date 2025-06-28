@@ -64,6 +64,10 @@ a {
   justify-content: center;
 }
 
+.header-link:hover {
+  color: brown;
+}
+
 .header-title {
   display: flex;
   justify-content: center;
@@ -201,6 +205,10 @@ a {
 .footer-top-links {
   display: flex;
   gap: 34px;
+}
+
+.footer-top-links:hover {
+  color: rgb(45, 2, 2);
 }
 
 .footer-bottom {
